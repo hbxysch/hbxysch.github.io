@@ -1,3 +1,3 @@
-# Test Page
+# 代码随想录第一天｜704. 二分查找，27. 移除元素
  
 It's a test page
