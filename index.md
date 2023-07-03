@@ -1,26 +1,24 @@
-# 代码随想录第二天｜977 有序数组的平方 209 长度最小的子数组 59 螺旋矩阵
-## 977 
-最开始使用冒泡排序，时间复杂度比较高
+# 代码随想录第二天｜203移除链表元素 707设计链表 206反转链表
+## 203 移除链表元素
+该问题尤其需要注意的是，不要访问到空节点（nullptr）的next和val！
 
-<img width="465" alt="image" src="https://github.com/hbxysch/hbxysch.github.io/assets/50912459/d0248910-d82a-43d1-b577-a32a484f3d08">
+## 707 链表设计
+该问题细节很多，链表末尾的寻找通过判断cur->next == nullptr;
 
-要注意数组本身是有序的，只不过有正负，所以有个信息就是平方之后最大数一定在两侧，最小数在中间
-学习该问题思路之后再写：这块儿index一定要清晰，因为是从两边往里搜索，所以要从右往左补充递增数组。
+## 206 反转链表
+这道题其实很简单，但是细节在于对pre和cur的定义和赋值顺序，比如
+```
+pre = cur;
+cur = temp;
+```
+而不是
+```
+cur = temp;
+pre = cur;
+```
 
-<img width="462" alt="image" src="https://github.com/hbxysch/hbxysch.github.io/assets/50912459/6de50ddd-eee6-48c7-ba43-72db3d835e52">
 
-## 209
-该题的关键是滑动窗口法，其实基本思路就是
-1. 用滑动窗口（双指针）找到大于等于target的subarray
-2. 然后缩小窗口进行查询是否有更小的数组长度
-3. 如果找得到符合条件的subarray，则输出对应数组长度；找不到的话返回0
+<img width="357" alt="image" src="https://github.com/hbxysch/hbxysch.github.io/assets/50912459/8f3feb13-c53d-4ef1-b9e8-8b3765e2ea64">
 
-<img width="560" alt="image" src="https://github.com/hbxysch/hbxysch.github.io/assets/50912459/9bf3034a-cd8b-4c06-98bf-24c7879561a2">
-
-
-## 59
-该题的关键是掌握前闭后开的区间定义，这个搞清楚再注意二维vector数组的定义即可解题
-
-<img width="403" alt="image" src="https://github.com/hbxysch/hbxysch.github.io/assets/50912459/33dc26b3-0ad8-437d-aabd-64cb2d8a0b19">
 
 
