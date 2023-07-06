@@ -15,6 +15,6 @@ format from https://github.com/rainzhaojy/rainzhaojy.github.io
 从事自动驾驶行业，勉强合格的热爱文艺的程序员
 
 * <i class="fa fa-envelope"></i> [chunhui_sun@outlook.de](mailto:chunhui_sun@outlook.de)
-* <i class="fa fa-linkedin"></i> <http://cn.linkedin.com/in/chunhuisun>
+* <i class="fa fa-linkedin"></i> <http://www.linkedin.com/in/chunhuisun>
 
 ### tbd
