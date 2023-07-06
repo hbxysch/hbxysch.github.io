@@ -8,6 +8,7 @@ date: 2023-07-01
 ### About the site
 
 这是孙春晖的个人博客，记录成长道路上的积累
+format from https://github.com/rainzhaojy/rainzhaojy.github.io
 
 ### About me
 
