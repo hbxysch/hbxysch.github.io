@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include head.html %}
+</head>
+<body>
+    {% include header.html %}
+
+    <div class="pagecontent">
+    
+    <div class="ink-grid top-space">
+            <div class="column-group horizontal-gutters">
+                <div class="all-75">
+                        {{ content }}
+                </div>
+                <div class="all-25 noprint">
+                        {% include category_list.html %}
+                </div>
+            </div>
+            <div class="column-group">
+                <div class="all-100">
+                    <hr/>
+                </div>
+            </div>
+    </div>
+    
+    {% include footer.html %}
+    </div>
+</body>
+</html>
+

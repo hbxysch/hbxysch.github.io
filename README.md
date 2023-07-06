@@ -1,2 +1,1 @@
-# hbxysch.github.io
-tech blog
+Rain Zhao's blog site
