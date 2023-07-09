@@ -116,5 +116,29 @@ public:
 };
 ```
 
-
 ## 剑指Offer58-II 左旋转字符串
+步骤和上面相似：
+1. 先反转前n个字符
+2. 反转n到结尾的字符
+3. 反转整个字符
+
+该问题比较有技巧，不额外新增空间还是不容易想出这种方法
+
+```
+class Solution {
+public:
+    void doReverse(string& s, int start, int end) {
+        while(start<end) {
+            swap(s[start], s[end]);
+            start++;
+            end--;
+        }
+    }
+    string reverseLeftWords(string s, int n) {
+        doReverse(s, 0, n-1);
+        doReverse(s, n, s.size()-1);
+        doReverse(s, 0, s.size()-1);
+        return s;
+    }
+};
+```
