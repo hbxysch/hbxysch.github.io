@@ -41,3 +41,45 @@ public:
 ```
 
 ## 225 用队列实现栈
+
+该问题用queue1作为主要容器，用queue作为备份即可实现栈。需要注意处理pop时候的从queue1到queue2或者反过来数据转移细节。
+
+```
+class MyStack {
+public:
+    queue<int> que1;
+    queue<int> que2;
+    MyStack() {
+        
+    }
+    
+    void push(int x) {
+        que1.push(x);
+    }
+    
+    int pop() {
+        int que_size = que1.size();
+        que_size--;
+        while (que_size--) {
+            que2.push(que1.front());
+            que1.pop();
+        }
+
+        int res = que1.front();
+        while (!que2.empty()) {
+            que1.push(que2.front());
+            que2.pop();
+        }
+        que1.pop();
+        return res;
+    }
+    
+    int top() {
+        return que1.back();
+    }
+    
+    bool empty() {
+        return que1.empty();
+    }
+};
+```
