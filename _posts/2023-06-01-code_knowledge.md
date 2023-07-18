@@ -2,3 +2,17 @@
 主要用于字符串匹配，主要思想是当字符串不匹配的时候，可以知道部分之前已经匹配的文本内容，利用这些信息避免从头匹配
 
 KMP next数组是前缀表
+
+## 优先级队列，大顶堆和小顶堆
+### 优先级队列
+可以参考[优先级队列]("https://blog.csdn.net/jay_zzs/article/details/106549621")
+
+### 大顶堆和小顶堆
+参考[数据结构,小顶堆]("https://blog.csdn.net/wenge1477/article/details/101797674")
+
+
+
+## lambda表达式
+
+
+参考 [lambda表达式]("https://zhuanlan.zhihu.com/p/150554945#:~:text=Lambda%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%201%20capture-list%EF%BC%9A%E6%8D%95%E8%8E%B7%E5%88%97%E8%A1%A8%E3%80%82%20%E5%89%8D%E9%9D%A2%E7%9A%84%E4%BE%8B%E5%AD%90%20auto%20Plus%20%3D,attribute%EF%BC%9A%E5%B1%9E%E6%80%A7%E6%A0%87%E8%AF%86%E3%80%82%20%E6%9A%82%E6%97%B6%E4%B8%8D%E5%BF%85%E7%90%86%E8%A7%A3%E3%80%82%206%20ret%EF%BC%9A%E8%BF%94%E5%9B%9E%E5%80%BC%E7%B1%BB%E5%9E%8B%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9C%81%E7%95%A5%EF%BC%8C%E8%AE%A9%E7%BC%96%E8%AF%91%E5%99%A8%E9%80%9A%E8%BF%87%20return%20%E8%AF%AD%E5%8F%A5%E8%87%AA%E5%8A%A8%E6%8E%A8%E5%AF%BC%E3%80%82%207%20body%EF%BC%9A%E5%87%BD%E6%95%B0%E7%9A%84%E5%85%B7%E4%BD%93%E9%80%BB%E8%BE%91%E3%80%82");
