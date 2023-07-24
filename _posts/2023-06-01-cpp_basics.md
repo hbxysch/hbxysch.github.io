@@ -9,3 +9,6 @@ vector<vector<int>> result(n, vector<int>(n,0));
 
 3. 函数中数组的传递一般是值传递或者指针传递，引用传递比较麻烦，非常少
 引用传递可以参考 [C++数组通过引用传递]("https://blog.csdn.net/qq_41883764/article/details/112802750")
+
+4. vector<int>()指的是空vector容器  
+5. 头文件<algorithm>中reverse()函数的用法：reverse(v.begin(), v.end());
