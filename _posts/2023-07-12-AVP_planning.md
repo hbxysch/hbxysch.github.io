@@ -57,8 +57,14 @@ Lattice Planner输出的轨迹是一条光滑无碰撞满足车辆运动学约�
 2. 角度偏差较大
 3. 路太窄或者有障碍物，揉库空间不足：第一把向前空间不足/上扬空间不足
 
-### Hybrid A* 算法学习
-
+### 其他规划算法学习
+对PNC算法的要求有：算力低，实时性好，可解释性好，可扩展性强，精度高，依赖少。可以学习论文"Practical Search Techniques in Path Planning for Autonomous Driving". 
+1. 基于几何分解的方法   
+可视图；voronoi；栅格法
+2. 基于随机采样的方法   
+PRM算法；RRT算法
+3. 基于图搜索的方法   
+Dijkstra算法；A*算法；D*算法；Hybrid A*   
 
 ## AVP项目问题总结
 ### 海马AVP项目问题
